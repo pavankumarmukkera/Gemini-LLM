@@ -5,7 +5,7 @@ import PIL.Image
 import google.generativeai as genai
 
 # Used to securely store your API key
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAc7Ii4wHf_whau2q--rgjfdht8-I5xhSY'
+os.environ['GOOGLE_API_KEY'] = 'Place your Key here'
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 genai.configure(api_key=GOOGLE_API_KEY)
